@@ -1,0 +1,65 @@
+00:18:04.419 [http-nio-9101-exec-5] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:[500 ] during [GET] to [http://ruoyi-order/order/query/100] [RemoteOrderService#getOrderByOrderId(Long,String)]: [{"timestamp":"2021-11-08T00:18:04.413+08:00","status":500,"error":"Internal Server Error","path":"/order/query/100"}]
+00:18:04.868 [http-nio-9101-exec-7] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:[500 ] during [GET] to [http://ruoyi-order/order/query/100] [RemoteOrderService#getOrderByOrderId(Long,String)]: [{"timestamp":"2021-11-08T00:18:04.867+08:00","status":500,"error":"Internal Server Error","path":"/order/query/100"}]
+00:18:05.355 [http-nio-9101-exec-9] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:[500 ] during [GET] to [http://ruoyi-order/order/query/100] [RemoteOrderService#getOrderByOrderId(Long,String)]: [{"timestamp":"2021-11-08T00:18:05.353+08:00","status":500,"error":"Internal Server Error","path":"/order/query/100"}]
+00:18:05.793 [http-nio-9101-exec-1] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:[500 ] during [GET] to [http://ruoyi-order/order/query/100] [RemoteOrderService#getOrderByOrderId(Long,String)]: [{"timestamp":"2021-11-08T00:18:05.791+08:00","status":500,"error":"Internal Server Error","path":"/order/query/100"}]
+00:18:05.974 [http-nio-9101-exec-2] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:[500 ] during [GET] to [http://ruoyi-order/order/query/100] [RemoteOrderService#getOrderByOrderId(Long,String)]: [{"timestamp":"2021-11-08T00:18:05.972+08:00","status":500,"error":"Internal Server Error","path":"/order/query/100"}]
+00:18:06.397 [http-nio-9101-exec-4] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:[500 ] during [GET] to [http://ruoyi-order/order/query/100] [RemoteOrderService#getOrderByOrderId(Long,String)]: [{"timestamp":"2021-11-08T00:18:06.395+08:00","status":500,"error":"Internal Server Error","path":"/order/query/100"}]
+00:18:06.777 [http-nio-9101-exec-6] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:[500 ] during [GET] to [http://ruoyi-order/order/query/100] [RemoteOrderService#getOrderByOrderId(Long,String)]: [{"timestamp":"2021-11-08T00:18:06.776+08:00","status":500,"error":"Internal Server Error","path":"/order/query/100"}]
+00:18:06.958 [http-nio-9101-exec-7] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:[500 ] during [GET] to [http://ruoyi-order/order/query/100] [RemoteOrderService#getOrderByOrderId(Long,String)]: [{"timestamp":"2021-11-08T00:18:06.957+08:00","status":500,"error":"Internal Server Error","path":"/order/query/100"}]
+00:18:07.362 [http-nio-9101-exec-9] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:[500 ] during [GET] to [http://ruoyi-order/order/query/100] [RemoteOrderService#getOrderByOrderId(Long,String)]: [{"timestamp":"2021-11-08T00:18:07.361+08:00","status":500,"error":"Internal Server Error","path":"/order/query/100"}]
+00:18:07.708 [http-nio-9101-exec-1] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:[500 ] during [GET] to [http://ruoyi-order/order/query/100] [RemoteOrderService#getOrderByOrderId(Long,String)]: [{"timestamp":"2021-11-08T00:18:07.706+08:00","status":500,"error":"Internal Server Error","path":"/order/query/100"}]
+00:18:11.819 [http-nio-9101-exec-6] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:[500 ] during [GET] to [http://ruoyi-order/order/query/100] [RemoteOrderService#getOrderByOrderId(Long,String)]: [{"timestamp":"2021-11-08T00:18:11.817+08:00","status":500,"error":"Internal Server Error","path":"/order/query/100"}]
+00:25:18.454 [http-nio-9101-exec-10] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:[500 ] during [GET] to [http://ruoyi-order/order/query/100] [RemoteOrderService#getOrderByOrderId(Long,String)]: [{"timestamp":"2021-11-08T00:25:18.452+08:00","status":500,"error":"Internal Server Error","path":"/order/query/100"}]
+00:25:35.419 [http-nio-9101-exec-4] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:[500 ] during [GET] to [http://ruoyi-order/order/query/100] [RemoteOrderService#getOrderByOrderId(Long,String)]: [{"timestamp":"2021-11-08T00:25:35.417+08:00","status":500,"error":"Internal Server Error","path":"/order/query/100"}]
+10:28:15.135 [main] ERROR c.a.n.c.r.c.g.GrpcClient - [printIfErrorEnabled,99] - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 38 milliseconds, 609800 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@15efda6c[status=PENDING, info=[GrpcFuture{clientCall={delegate={delegate=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@f9f3928, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@404eca05, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@58b91d57}}}}}]]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:508)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:146)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:268)
+	at com.alibaba.nacos.common.remote.client.RpcClient.start(RpcClient.java:394)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.ensureRpcClient(ClientWorker.java:941)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.getOneRunningClient(ClientWorker.java:1104)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.queryConfig(ClientWorker.java:996)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.getServerConfig(ClientWorker.java:407)
+	at com.alibaba.nacos.client.config.NacosConfigService.getConfigInner(NacosConfigService.java:166)
+	at com.alibaba.nacos.client.config.NacosConfigService.getConfig(NacosConfigService.java:94)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder.loadNacosData(NacosPropertySourceBuilder.java:85)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder.build(NacosPropertySourceBuilder.java:73)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadNacosPropertySource(NacosPropertySourceLocator.java:199)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadNacosDataIfPresent(NacosPropertySourceLocator.java:186)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadNacosConfiguration(NacosPropertySourceLocator.java:158)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadSharedConfiguration(NacosPropertySourceLocator.java:116)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.locate(NacosPropertySourceLocator.java:101)
+	at org.springframework.cloud.bootstrap.config.PropertySourceLocator.locateCollection(PropertySourceLocator.java:51)
+	at org.springframework.cloud.bootstrap.config.PropertySourceLocator.locateCollection(PropertySourceLocator.java:47)
+	at org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration.initialize(PropertySourceBootstrapConfiguration.java:95)
+	at org.springframework.boot.SpringApplication.applyInitializers(SpringApplication.java:634)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:403)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.ruoyi.test.TestServiceApplication.main(TestServiceApplication.java:21)
+11:14:33.577 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field requestOriginParserOptional in com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration required a single bean, but 2 were found:
+	- headerOriginParser: defined in file [C:\Users\清研\OneDrive\桌面\RuoYi-Cloud-master\RuoYi-Cloud-master\ruoyi-test\target\classes\com\ruoyi\test\sentinel\HeaderOriginParser.class]
+	- headerRequestOriginParser: defined by method 'headerRequestOriginParser' in class path resource [com/ruoyi/test/config/sentinelConfig.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+12:06:28.556 [http-nio-9101-exec-6] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:null
+12:06:28.710 [http-nio-9101-exec-7] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:null
+12:06:28.910 [http-nio-9101-exec-8] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:null
+12:06:29.628 [http-nio-9101-exec-1] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:null
+12:06:29.784 [http-nio-9101-exec-2] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:null
+12:06:29.953 [http-nio-9101-exec-3] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:null
+12:06:30.652 [http-nio-9101-exec-6] ERROR c.r.s.a.f.RemoteOrderFallbackFactory - [create,28] - 订单服务调用失败:null

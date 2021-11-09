@@ -1,0 +1,49 @@
+server:
+  port: 9102
+
+# Spring
+spring: 
+  application:
+    # 应用名称
+    name: kangfu-order
+  profiles:
+    # 多个环境配置
+    active: dev # dev：开发环境
+  cloud:
+    # 配置 Nacos
+    nacos:
+      discovery:
+        # 服务注册地址
+        server-addr: 127.0.0.1:8848
+      config:
+        # 配置中心地址
+        server-addr: 127.0.0.1:8848
+        # 配置文件格式
+        file-extension: yml
+        # 共享配置
+        shared-configs:
+          - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+    # 配置 Sentinel
+    sentinel:
+      # 取消控制台懒加载--是否提前触发 Sentinel 初始化
+      eager: true
+      transport:
+        # Sentinel控制台地址
+        dashboard: 127.0.0.1:8718
+# 配置feign
+feign:
+  client:
+    config:
+      default: # default全局配置
+        loggerLevel: BASIC # 日志级别，BASIC就是最基本的请求和响应信息
+  # 配置Feign的底层实现，将URLConnection改为HttpClient，前者不支持连接池，后者支持连接池
+  httpclient:
+    # 在主配置文件中已经打开了 Feign 对 HTTP Client 的支持
+    enabled: true # 开启 Feign对 HttpClient的支持
+    max-connections: 200 # 最大的连接数
+    max-connections-per-route: 50 # 每个路径的最大连接数
+  # Feign整合Sentinel
+  sentinel:
+    # 在主配置文件中已经打开了 Sentinel 对 Feign 的支持
+    # 默认为false。如果为true，开启feign的sentinel功能，OpenFeign客户端将使用Sentinel断路器进行包装。
+    enabled: true

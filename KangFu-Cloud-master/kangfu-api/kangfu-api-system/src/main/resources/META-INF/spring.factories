@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.kangfu.system.api.factory.RemoteOrderFallbackFactory, \
+  com.kangfu.system.api.factory.RemoteTestFallbackFactory, \
+  com.kangfu.system.api.factory.RemoteUserFallbackFactory,\
+  com.kangfu.system.api.factory.RemoteLogFallbackFactory, \
+  com.kangfu.system.api.factory.RemoteFileFallbackFactory

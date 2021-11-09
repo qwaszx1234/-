@@ -1,0 +1,6 @@
+17:06:58.231 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was localhost/127.0.0.1:6379
+17:06:58.231 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was localhost/127.0.0.1:6379
+17:06:58.758 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [081dc0a3-661d-4049-868d-031ed004153b] try to re connect to a new server ,server is  not appointed,will choose a random server.
+17:06:58.758 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [df3362cb-cf5e-40c4-b557-c2af9cb07598_config-0] try to re connect to a new server ,server is  not appointed,will choose a random server.
+17:07:02.992 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [081dc0a3-661d-4049-868d-031ed004153b] fail to connect server,after trying 1 times, last try server is {serverIp='127.0.0.1', server main port=8848},error=unknown
+17:07:02.993 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [df3362cb-cf5e-40c4-b557-c2af9cb07598_config-0] fail to connect server,after trying 1 times, last try server is {serverIp='127.0.0.1', server main port=8848},error=unknown

@@ -1,0 +1,74 @@
+14:19:50.084 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+14:23:55.455 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+14:56:44.498 [reactor-http-nio-2] ERROR c.r.g.f.AuthFilter - [unauthorizedResponse,111] - [鉴权异常处理]请求路径:/system/user/getInfo
+14:56:52.063 [reactor-http-nio-8] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/auth/login,异常信息:null
+14:56:58.137 [reactor-http-nio-2] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/auth/login,异常信息:null
+14:57:06.070 [reactor-http-nio-4] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/auth/login,异常信息:null
+15:21:33.569 [reactor-http-nio-5] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+15:21:38.779 [reactor-http-nio-6] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+15:24:56.786 [reactor-http-nio-3] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+15:40:14.598 [reactor-http-nio-7] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/user,异常信息:null
+15:52:46.994 [reactor-http-nio-7] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/user,异常信息:null
+16:08:59.798 [reactor-http-nio-5] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+16:09:05.049 [reactor-http-nio-6] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+16:15:15.911 [reactor-http-nio-6] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+16:17:22.497 [reactor-http-nio-7] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+16:17:30.975 [reactor-http-nio-2] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+16:18:21.508 [reactor-http-nio-5] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+16:20:33.591 [reactor-http-nio-3] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+16:21:17.707 [reactor-http-nio-4] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+16:21:33.568 [reactor-http-nio-6] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+16:22:03.679 [reactor-http-nio-7] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/user,异常信息:null
+16:23:44.970 [reactor-http-nio-8] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/user,异常信息:null
+16:24:29.062 [reactor-http-nio-1] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/user,异常信息:null
+16:24:53.773 [reactor-http-nio-2] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/user,异常信息:null
+16:25:37.111 [reactor-http-nio-6] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/user,异常信息:null
+16:35:53.027 [reactor-http-nio-2] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/user,异常信息:null
+16:35:53.335 [reactor-http-nio-3] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/user,异常信息:null
+16:36:40.392 [reactor-http-nio-5] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+16:38:14.221 [reactor-http-nio-8] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+16:55:17.630 [reactor-http-nio-5] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+16:59:48.601 [reactor-http-nio-2] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/user,异常信息:null
+17:01:30.630 [reactor-http-nio-7] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/user,异常信息:null
+17:05:26.689 [reactor-http-nio-6] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/user,异常信息:null
+17:05:31.615 [reactor-http-nio-7] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/user,异常信息:null
+17:20:16.392 [reactor-http-nio-1] ERROR c.r.g.f.AuthFilter - [unauthorizedResponse,111] - [鉴权异常处理]请求路径:/test/user/101
+17:20:16.392 [reactor-http-nio-8] ERROR c.r.g.f.AuthFilter - [unauthorizedResponse,111] - [鉴权异常处理]请求路径:/test/dept/treeselect
+17:22:08.806 [reactor-http-nio-5] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+17:26:17.988 [boundedElastic-3] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/code/gen/list,异常信息:503 SERVICE_UNAVAILABLE "Unable to find instance for ruoyi-gen"
+17:31:38.004 [reactor-http-nio-7] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+17:31:50.009 [reactor-http-nio-8] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+17:34:08.699 [reactor-http-nio-7] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+17:50:17.113 [reactor-http-nio-3] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+17:50:50.890 [reactor-http-nio-4] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/test/order/update,异常信息:null
+18:03:35.126 [reactor-http-nio-2] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/order/update/update,异常信息:null
+18:04:29.841 [reactor-http-nio-2] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/order/user/update,异常信息:null
+18:07:29.667 [reactor-http-nio-5] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/order/user/update,异常信息:null
+18:09:27.011 [reactor-http-nio-8] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/order/user/update,异常信息:null
+18:12:07.777 [reactor-http-nio-3] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/order/user/update,异常信息:null

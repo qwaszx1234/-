@@ -1,0 +1,15 @@
+16:41:48.948 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+16:41:49.497 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - [<clinit>,67] - LOCAL_SNAPSHOT_PATH:C:\Users\清研\nacos\config
+16:41:49.498 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of df3362cb-cf5e-40c4-b557-c2af9cb07598_config-0
+16:41:49.526 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 17 ms to scan 1 urls, producing 3 keys and 6 values 
+16:41:49.543 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+16:41:49.553 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+16:41:49.563 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 7 ms to scan 1 urls, producing 1 keys and 5 values 
+16:41:49.573 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 8 ms to scan 1 urls, producing 1 keys and 7 values 
+16:41:49.581 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 6 ms to scan 1 urls, producing 2 keys and 8 values 
+16:41:49.583 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [df3362cb-cf5e-40c4-b557-c2af9cb07598_config-0]RpcClient init label, labels={module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+16:41:49.583 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [df3362cb-cf5e-40c4-b557-c2af9cb07598_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$450/0x000000080040bc40
+16:41:49.584 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [df3362cb-cf5e-40c4-b557-c2af9cb07598_config-0]Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$451/0x000000080040b040
+16:41:49.585 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [df3362cb-cf5e-40c4-b557-c2af9cb07598_config-0]Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+16:41:49.585 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [df3362cb-cf5e-40c4-b557-c2af9cb07598_config-0]RpcClient init, ServerListFactory =com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+16:41:49.591 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [df3362cb-cf5e-40c4-b557-c2af9cb07598_config-0] Try to connect to server on start up, server: {serverIp='127.0.0.1', server main port=8848}

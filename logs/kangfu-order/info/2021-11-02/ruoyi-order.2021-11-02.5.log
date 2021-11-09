@@ -1,0 +1,10 @@
+16:41:55.943 [main] INFO  c.a.n.client.naming - [processServiceInfo,166] - current ips:(0) service: DEFAULT_GROUP@@ruoyi-order@@DEFAULT -> []
+16:41:55.964 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9102"]
+16:41:55.982 [main] INFO  c.a.n.client.naming - [registerService,112] - [REGISTER-SERVICE] public registering service ruoyi-order with instance Instance{instanceId='null', ip='10.131.41.89', port=9102, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+16:41:55.988 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, DEFAULT_GROUP ruoyi-order 10.131.41.89:9102 register finished
+16:41:56.274 [main] INFO  c.r.o.OrderServiceApplication - [logStarted,61] - Started OrderServiceApplication in 7.882 seconds (JVM running for 8.822)
+16:41:56.280 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] ruoyi-order+DEFAULT_GROUP
+16:41:56.281 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=, dataId=ruoyi-order, group=DEFAULT_GROUP, cnt=1
+16:41:56.281 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] ruoyi-order.yml+DEFAULT_GROUP
+16:41:56.281 [main] INFO  c.a.n.c.c.i.CacheData - [addListener,173] - [config_rpc_client] [add-listener] ok, tenant=, dataId=ruoyi-order.yml, group=DEFAULT_GROUP, cnt=1
+16:41:56.290 [main] INFO  c.a.n.c.c.i.ClientWorker - [addCacheDataIfAbsent,384] - [config_rpc_client] [subscribe] ruoyi-order-dev.yml+DEFAULT_GROUP

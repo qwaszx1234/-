@@ -1,0 +1,15 @@
+# 基础镜像
+FROM  openjdk:8-jre
+# author
+MAINTAINER kangfu
+
+# 挂载目录
+VOLUME /home/kangfu
+# 创建目录
+RUN mkdir -p /home/kangfu
+# 指定路径
+WORKDIR /home/kangfu
+# 复制jar文件到路径
+COPY ./jar/kangfu-modules-gen.jar /home/kangfu/kangfu-modules-gen.jar
+# 启动代码生成服务
+ENTRYPOINT ["java","-jar","kangfu-modules-gen.jar"]
