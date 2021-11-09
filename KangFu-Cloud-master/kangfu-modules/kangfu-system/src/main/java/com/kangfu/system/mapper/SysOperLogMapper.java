@@ -15,6 +15,7 @@ public interface SysOperLogMapper
      * 新增操作日志
      * 
      * @param operLog 操作日志对象
+     * @return
      */
     public int insertOperlog(SysOperLog operLog);
 

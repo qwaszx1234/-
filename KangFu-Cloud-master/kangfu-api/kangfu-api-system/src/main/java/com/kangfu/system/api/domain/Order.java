@@ -7,6 +7,9 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 
 import java.util.Date;
 
+/**
+ * @author kangfu
+ */
 public class Order extends BaseEntity {
     private static final long serialVersionUID = 1L;
 

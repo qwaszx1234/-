@@ -1,7 +1,7 @@
 {
   "name": "kangfu",
   "version": "3.2.0",
-  "description": "康复管理系统",
+  "description": "智慧康复管理系统",
   "author": "康复",
   "license": "MIT",
   "scripts": {

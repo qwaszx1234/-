@@ -21,6 +21,11 @@ import org.springframework.web.bind.annotation.RequestHeader;
 @FeignClient(contextId = "remoteTestService", value = ServiceNameConstants.TEST_SERVICE,fallbackFactory= RemoteTestFallbackFactory.class)
 public interface RemoteTestService {
 
+    /**
+     * 获取用户列表
+     * @param source
+     * @return
+     */
     @GetMapping("/user/list")
     public R<LoginUser> getUserList(@RequestHeader(SecurityConstants.FROM_SOURCE) String source);
 
@@ -29,6 +34,7 @@ public interface RemoteTestService {
      * 根据orderId
      * @path /order/query/{orderId}
      * @param orderId
+     * @param source
      * @return
      */
     @GetMapping("/order/query/{orderId}")

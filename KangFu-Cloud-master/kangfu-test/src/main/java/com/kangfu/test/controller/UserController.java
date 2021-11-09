@@ -171,6 +171,7 @@ public class UserController extends BaseController {
         logger.info("根据用户编号获取授权角色");
         AjaxResult ajax = AjaxResult.success();
         User user = userService.selectUserById(userId);
+        startPage();
         List<Role> roles = roleService.selectRolesByUserId(userId);
         ajax.put("user", user);
         ajax.put("roles", User.isAdmin(userId) ? roles : roles.stream().filter(r -> !r.isAdmin()).collect(Collectors.toList()));

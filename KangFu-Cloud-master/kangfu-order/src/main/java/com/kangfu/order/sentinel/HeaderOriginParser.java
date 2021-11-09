@@ -10,6 +10,8 @@ import javax.servlet.http.HttpServletRequest;
  * 授权规则
  * Sentinel通过RequestOriginParser这个接口的parseOrigin方法来获取HttpServletRequest的来源。
  * 定义：放行网关传递的request，拦截非网关传递的request，通过请求头中的origin的值进行判断。
+ *
+ * @author kangfu
  */
 @Component
 public class HeaderOriginParser implements RequestOriginParser {

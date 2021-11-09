@@ -12,6 +12,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/**
+ * @author kangfu
+ */
 @Service
 public class RoleServiceImpl implements RoleService {
 

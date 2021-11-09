@@ -44,6 +44,8 @@ public interface RemoteUserService
 
     /**
      * 查询用户列表
+     * @param source
+     * @return
      */
     @GetMapping("/user/list/")
     public TableDataInfo getUserList(@RequestHeader(SecurityConstants.FROM_SOURCE) String source);

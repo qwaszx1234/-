@@ -13,11 +13,19 @@ public interface ValidateCodeService
 {
     /**
      * 生成验证码
+     *
+     * @return
+     * @throws IOException
+     * @throws CaptchaException
      */
     public AjaxResult createCapcha() throws IOException, CaptchaException;
 
     /**
      * 校验验证码
+     *
+     * @param key
+     * @param value
+     * @throws CaptchaException
      */
     public void checkCapcha(String key, String value) throws CaptchaException;
 }

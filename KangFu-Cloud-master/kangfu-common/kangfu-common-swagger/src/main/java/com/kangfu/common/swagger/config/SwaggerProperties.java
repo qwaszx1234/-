@@ -5,6 +5,9 @@ import java.util.List;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+/**
+ * @author kangfu
+ */
 @Component
 @ConfigurationProperties("swagger")
 public class SwaggerProperties

@@ -13,6 +13,9 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import com.kangfu.common.security.config.ApplicationConfig;
 import com.kangfu.common.security.feign.FeignAutoConfiguration;
 
+/**
+ * @author kangfu
+ */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented

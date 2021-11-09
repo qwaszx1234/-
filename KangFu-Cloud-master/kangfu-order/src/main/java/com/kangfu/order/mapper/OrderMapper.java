@@ -6,11 +6,16 @@ import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
+/**
+ * @author kangfu
+ */
 public interface OrderMapper {
 
     /**
      * 查询单个订单
      * 根据orderId
+     * @param orderId
+     * @return
      */
     @Select("select orderId,content,userId,createtime from t_order where orderId = #{orderId}")
     Order getOrderByOrderId(@Param("orderId") Long orderId);
@@ -18,6 +23,8 @@ public interface OrderMapper {
     /**
      * 查询订单列表
      * 根据userId
+     * @param userId
+     * @return
      */
     @Select("select orderId,content,userId,createtime from t_order where userId = #{userId}  order by createtime desc")
     List<Order> getOrderListByUserId(Long userId);

@@ -55,7 +55,7 @@ public class IpUtils
         {
             ip = request.getRemoteAddr();
         }
-        return ip.equals("0:0:0:0:0:0:0:1") ? "127.0.0.1" : ip;
+        return "0:0:0:0:0:0:0:1".equals(ip) ? "127.0.0.1" : ip;
     }
 
     public static boolean internalIp(String ip)
@@ -95,6 +95,8 @@ public class IpUtils
                 {
                     case SECTION_6:
                         return true;
+                    default:
+                        return false;
                 }
             default:
                 return false;

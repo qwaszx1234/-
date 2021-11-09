@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * 测试模块
+ * @author kangfu
  */
 @EnableCustomConfig
 @EnableCustomSwagger2

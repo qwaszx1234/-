@@ -17,6 +17,9 @@ import javax.annotation.PostConstruct;
 import java.util.Collection;
 import java.util.List;
 
+/**
+ * @author kangfu
+ */
 @Service
 public class ConfigServiceImpl implements ConfigService {
 
@@ -180,6 +183,7 @@ public class ConfigServiceImpl implements ConfigService {
      * @return 结果
      */
 
+    @Override
     public String checkConfigKeyUnique(SysConfig config)
     {
         Long configId = StringUtils.isNull(config.getConfigId()) ? -1L : config.getConfigId();

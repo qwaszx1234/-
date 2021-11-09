@@ -9,6 +9,9 @@ import java.lang.annotation.Target;
 import org.springframework.context.annotation.Import;
 import com.kangfu.common.swagger.config.SwaggerAutoConfiguration;
 
+/**
+ * @author kangfu
+ */
 @Target({ ElementType.TYPE })
 @Retention(RetentionPolicy.RUNTIME)
 @Documented

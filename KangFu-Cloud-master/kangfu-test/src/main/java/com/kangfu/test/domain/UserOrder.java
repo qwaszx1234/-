@@ -4,6 +4,9 @@ package com.kangfu.test.domain;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
+/**
+ * @author kangfu
+ */
 public class UserOrder extends User {
     private static final long serialVersionUID = 1L;
 

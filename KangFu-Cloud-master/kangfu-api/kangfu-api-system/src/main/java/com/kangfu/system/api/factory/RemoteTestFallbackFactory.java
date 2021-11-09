@@ -10,6 +10,7 @@ import org.springframework.cloud.openfeign.FallbackFactory;
 
 /**
  * 测试服务降级处理
+ * @author kangfu
  */
 public class RemoteTestFallbackFactory implements FallbackFactory<RemoteTestService> {
     private static final Logger log = LoggerFactory.getLogger(RemoteTestFallbackFactory.class);

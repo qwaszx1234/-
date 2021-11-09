@@ -17,6 +17,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * @author kangfu
+ */
 @RestController
 @RequestMapping("/config2")
 public class ConfigController extends BaseController{

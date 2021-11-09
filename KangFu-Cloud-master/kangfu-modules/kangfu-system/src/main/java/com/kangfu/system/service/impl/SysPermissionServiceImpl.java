@@ -10,6 +10,9 @@ import com.kangfu.system.service.ISysMenuService;
 import com.kangfu.system.service.ISysPermissionService;
 import com.kangfu.system.service.ISysRoleService;
 
+/**
+ * @author kangfu
+ */
 @Service
 public class SysPermissionServiceImpl implements ISysPermissionService
 {

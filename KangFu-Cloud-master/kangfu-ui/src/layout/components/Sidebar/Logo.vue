@@ -35,7 +35,7 @@ export default {
   },
   data() {
     return {
-      title: '康复管理系统',
+      title: '智慧康复管理系统',
       logo: logoImg
     }
   }

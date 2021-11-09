@@ -136,7 +136,7 @@ public class TokenService
     /**
      * 验证令牌有效期，相差不足120分钟，自动刷新缓存
      *
-     * @param loginUser
+     * @param loginUser 登录用户对象
      */
     public void verifyToken(LoginUser loginUser)
     {

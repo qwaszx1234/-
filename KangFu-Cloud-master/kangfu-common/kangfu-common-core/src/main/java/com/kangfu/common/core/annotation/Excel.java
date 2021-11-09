@@ -116,16 +116,33 @@ public @interface Excel
      */
     public String[] args() default {};
 
+    /**
+     * Align
+     */
     public enum Align
     {
+        /**
+         *
+         */
         AUTO(0), LEFT(1), CENTER(2), RIGHT(3);
+        /**
+         *
+         */
         private final int value;
 
+        /**
+         *
+         * @param value
+         */
         Align(int value)
         {
             this.value = value;
         }
 
+        /**
+         *
+         * @return
+         */
         public int value()
         {
             return this.value;
@@ -137,32 +154,66 @@ public @interface Excel
      */
     Type type() default Type.ALL;
 
+    /**
+     * Type
+     */
     public enum Type
     {
+        /**
+         *
+         */
         ALL(0), EXPORT(1), IMPORT(2);
+        /**
+         *
+         */
         private final int value;
 
+        /**
+         *
+         * @param value
+         */
         Type(int value)
         {
             this.value = value;
         }
 
+        /**
+         *
+         * @return
+         */
         public int value()
         {
             return this.value;
         }
     }
 
+    /**
+     * ColumnType
+     */
     public enum ColumnType
     {
+        /**
+         *
+         */
         NUMERIC(0), STRING(1), IMAGE(2);
+        /**
+         *
+         */
         private final int value;
 
+        /**
+         *
+         * @param value
+         */
         ColumnType(int value)
         {
             this.value = value;
         }
 
+        /**
+         *
+         * @return
+         */
         public int value()
         {
             return this.value;

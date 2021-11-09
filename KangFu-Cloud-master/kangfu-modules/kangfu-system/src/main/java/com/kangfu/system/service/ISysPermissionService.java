@@ -2,6 +2,9 @@ package com.kangfu.system.service;
 
 import java.util.Set;
 
+/**
+ * @author kangfu
+ */
 public interface ISysPermissionService
 {
     /**

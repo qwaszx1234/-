@@ -24,6 +24,9 @@ import springfox.documentation.spring.web.plugins.ApiSelectorBuilder;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+/**
+ * @author kangfu
+ */
 @Configuration
 @EnableSwagger2
 @EnableAutoConfiguration

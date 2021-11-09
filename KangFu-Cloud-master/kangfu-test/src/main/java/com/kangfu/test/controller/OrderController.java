@@ -10,6 +10,9 @@ import com.kangfu.test.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * @author kangfu
+ */
 @RestController
 public class OrderController extends BaseController {
 
@@ -29,7 +32,9 @@ public class OrderController extends BaseController {
     public AjaxResult getOrderListByUserId(@PathVariable("userId") Long userId
             ,@RequestHeader(value = "origin",required = false)String origin) {
         //System.out.println("查询订单列表 origin = " + origin);
-        return remoteOrderService.getOrderListByUserId(userId,SecurityConstants.FROM_SOURCE);
+        startPage();
+        AjaxResult list = remoteOrderService.getOrderListByUserId(userId, SecurityConstants.FROM_SOURCE);
+        return list;
     }
 
     /**
@@ -43,7 +48,9 @@ public class OrderController extends BaseController {
     public AjaxResult getOrderByOrderId(@PathVariable("orderId") Long orderId,
         @RequestHeader(value = "origin",required = false)String origin){
         //System.out.println("查询单个订单 origin = " + origin);
-        return remoteOrderService.getOrderByOrderId(orderId,SecurityConstants.FROM_SOURCE);
+        startPage();
+        AjaxResult ajaxResult = remoteOrderService.getOrderByOrderId(orderId, SecurityConstants.FROM_SOURCE);
+        return ajaxResult;
     }
 
     /**

@@ -10,6 +10,9 @@ import java.util.regex.Pattern;
 import com.kangfu.common.core.text.Convert;
 import com.kangfu.common.core.utils.StringUtils;
 
+/**
+ * @author kangfu
+ */
 public class ReUtil
 {
     public final static Pattern GROUP_VAR = Pattern.compile("\\$(\\d+)");

@@ -9,6 +9,9 @@ import javax.validation.constraints.Size;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author kangfu
+ */
 public class Menu extends BaseEntity
 {
     private static final long serialVersionUID = 1L;

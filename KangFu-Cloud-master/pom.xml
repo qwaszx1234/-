@@ -9,8 +9,7 @@
     <version>3.2.0</version>
 
     <name>kangfu</name>
-    <url>http://www.kangfu.vip</url>
-    <description>康复微服务系统</description>
+    <description>智慧康复系统</description>
 
     <properties>
         <kangfu.version>3.2.0</kangfu.version>
@@ -276,9 +275,7 @@
         <module>kangfu-modules</module>
         <module>kangfu-api</module>
         <module>kangfu-common</module>
-        <!-- add kangfu-test service -->
         <module>kangfu-test</module>
-        <!-- add kangfu-order service -->
         <module>kangfu-order</module>
 
     </modules>

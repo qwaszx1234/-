@@ -23,6 +23,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * @author kangfu
+ */
 @Service
 public class UserServiceImpl implements UserService {
     @Autowired
@@ -45,7 +48,9 @@ public class UserServiceImpl implements UserService {
     public List<User> selectUserList(User user) {
         return userMapper.selectUserList(user);
     }
-    // userlist被限流/降级/系统保护的响应处理
+    /**
+     * userlist被限流/降级/系统保护的响应处理
+     */
     public List<User> failBlockHandler(User user, BlockException be){
         System.out.println("查询用户列表 userlist 被限流了");
         return Collections.emptyList();
@@ -128,7 +133,7 @@ public class UserServiceImpl implements UserService {
      * @return 结果
      */
     @Override
-    @Transactional
+    @Transactional(rollbackFor = Exception.class)
     public int insertUser(User user) {
         // 新增用户信息
         int rows = userMapper.insertUser(user);
@@ -199,7 +204,7 @@ public class UserServiceImpl implements UserService {
      * @return 结果
      */
     @Override
-    @Transactional
+    @Transactional(rollbackFor = Exception.class)
     public int updateUser(User user) {
         Long userId = user.getUserId();
         // 删除用户与角色关联
@@ -219,7 +224,7 @@ public class UserServiceImpl implements UserService {
      * @return 结果
      */
     @Override
-    @Transactional
+    @Transactional(rollbackFor = Exception.class)
     public int deleteUserByIds(Long[] userIds) {
         for (Long userId : userIds) {
             checkUserAllowed(new User(userId));
@@ -237,7 +242,7 @@ public class UserServiceImpl implements UserService {
      * @param roleIds 角色组
      */
     @Override
-    @Transactional
+    @Transactional(rollbackFor = Exception.class)
     public void insertUserAuth(Long userId, Long[] roleIds) {
         userRoleMapper.deleteUserRoleByUserId(userId);
         insertUserRole(userId, roleIds);
