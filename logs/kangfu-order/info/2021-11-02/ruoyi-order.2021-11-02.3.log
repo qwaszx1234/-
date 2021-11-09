@@ -1,8 +1,0 @@
-16:41:54.375 [main] INFO  c.a.n.client.naming - [call,69] - initializer namespace from System Environment :null
-16:41:54.380 [main] INFO  c.a.n.client.naming - [call,79] - initializer namespace from System Property :null
-16:41:54.391 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,77] - [RpcClientFactory] create a new rpc client of 081dc0a3-661d-4049-868d-031ed004153b
-16:41:54.392 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [081dc0a3-661d-4049-868d-031ed004153b]RpcClient init label, labels={module=naming, source=sdk}
-16:41:54.393 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [081dc0a3-661d-4049-868d-031ed004153b]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
-16:41:54.394 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [081dc0a3-661d-4049-868d-031ed004153b]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-16:41:54.394 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [081dc0a3-661d-4049-868d-031ed004153b]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-16:41:54.394 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [081dc0a3-661d-4049-868d-031ed004153b] Try to connect to server on start up, server: {serverIp='127.0.0.1', server main port=8848}

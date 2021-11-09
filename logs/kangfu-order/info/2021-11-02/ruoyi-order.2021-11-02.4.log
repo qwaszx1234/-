@@ -1,6 +1,0 @@
-16:41:54.521 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [081dc0a3-661d-4049-868d-031ed004153b] Success to connect to server [127.0.0.1:8848] on start up,connectionId=1635842514401_127.0.0.1_12899
-16:41:54.527 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [081dc0a3-661d-4049-868d-031ed004153b]Notify connected event to listeners.
-16:41:54.527 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [081dc0a3-661d-4049-868d-031ed004153b]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-16:41:54.527 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.client.naming - [onConnected,76] - Grpc connection connect
-16:41:54.528 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [081dc0a3-661d-4049-868d-031ed004153b]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
-16:41:55.936 [main] INFO  c.a.n.client.naming - [isChangedServiceInfo,181] - init new ips(0) service: DEFAULT_GROUP@@ruoyi-order@@DEFAULT -> []
