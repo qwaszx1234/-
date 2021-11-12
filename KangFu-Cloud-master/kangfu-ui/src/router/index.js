@@ -87,6 +87,69 @@ export const constantRoutes = [
     ]
   },
   /**
+   * **************************************** 基础数据 start ********************************************
+   * */
+  {
+    path: '/data',
+    component: Layout,
+    hidden: true,
+    redirect: 'noredirect',
+    children: [
+      {
+        path: 'hospital',
+        component: (resolve) => require(['@/views/data/hospital/index'], resolve),
+        name: 'hospital-info',
+        meta: { title: '医院简介', icon: 'document' ,activeMenu: '/data/hospital' }
+      }
+    ]
+  },
+  {
+    path: '/data',
+    component: Layout,
+    hidden: true,
+    redirect: 'noredirect',
+    children: [
+      {
+        path: 'doctor',
+        component: (resolve) => require(['@/views/data/doctor/index'], resolve),
+        name: 'doctor-info',
+        meta: { title: '医生管理', icon: 'document' ,activeMenu: '/data/doctor' }
+      }
+    ]
+  },
+  {
+    path: '/data',
+    component: Layout,
+    hidden: true,
+    redirect: 'noredirect',
+    children: [
+      {
+        path: 'section',
+        component: (resolve) => require(['@/views/data/section/index'], resolve),
+        name: 'section-info',
+        meta: { title: '科室管理', icon: 'document' ,activeMenu: '/data/section' }
+      }
+    ]
+  },
+  {
+    path: '/data',
+    component: Layout,
+    hidden: true,
+    redirect: 'noredirect',
+    children: [
+      {
+        path: 'treat',
+        component: (resolve) => require(['@/views/data/treat/index'], resolve),
+        name: 'treat-info',
+        meta: { title: '治疗室管理', icon: 'document' ,activeMenu: '/data/treat' }
+      }
+    ]
+  },
+
+  /**
+   * **************************************** 基础数据 end ********************************************
+   * */
+  /**
    * **************************************** kangfu-test start ********************************************
    * */
   /**

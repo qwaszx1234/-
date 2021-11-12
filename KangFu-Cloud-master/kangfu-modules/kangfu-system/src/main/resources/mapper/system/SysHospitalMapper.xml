@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kangfu.system.mapper.SysHospitalMapper">
+
+    <resultMap type="SysHospital" id="SysHospitalResult">
+        <id     property="hospitalId"     column="hospital_id"     />
+        <result property="hospitalLogo"   column="hospital_logo"   />
+        <result property="hospitalName"   column="hospital_name"   />
+        <result property="hospitalLevel"     column="hospital_level"      />
+        <result property="hospitalType"   column="hospital_type"   />
+        <result property="hospitalIntroduce" column="hospital_introduce" />
+        <result property="hospitalImage"   column="hospital_image"   />
+        <result property="createBy" column="create_by" />
+        <result property="createTime" column="create_time" />
+        <result property="updateBy" column="update_by" />
+        <result property="updateTime" column="update_time" />
+        <result property="remark"         column="remark"         />
+    </resultMap>
+
+    <sql id="selectHospitalVo">
+        select hospital_id, hospital_logo, hospital_name, hospital_level,
+               hospital_type, hospital_introduce, hospital_image,create_by,
+               create_time,update_by,update_time,remark
+        from sys_hospital
+    </sql>
+
+    <!-- getHospitalInfo -->
+    <select id="getHospitalInfo" resultMap="SysHospitalResult">
+        <include refid="selectHospitalVo"/>
+        limit 1
+    </select>
+
+    <!-- updateHospital -->
+    <update id="updateHospital" parameterType="SysHospital">
+        update sys_hospital
+        <set>
+            <if test="hospitalLogo != null and hospitalLogo != ''">hospital_logo = #{hospitalLogo},</if>
+            <if test="hospitalName != null and hospitalName != ''">hospital_name = #{hospitalName},</if>
+            <if test="hospitalLevel != null ">hospital_level = #{hospitalLevel},</if>
+            <if test="hospitalType != null ">hospital_type = #{hospitalType},</if>
+            <if test="hospitalIntroduce != null and hospitalIntroduce != ''">hospital_introduce = #{hospitalIntroduce},</if>
+            <if test="hospitalImage != null and hospitalImage != ''">hospital_image = #{hospitalImage},</if>
+            <if test="createBy != null and createBy != ''">create_by = #{createBy},create_time=sysdate(),</if>
+            <if test="updateBy != null and updateBy != ''">update_by = #{updateBy},update_time=sysdate(),</if>
+            <if test="remark != null">remark = #{remark},</if>
+        </set>
+            where hospital_id = #{hospitalId}
+    </update>
+
+
+
+</mapper>
